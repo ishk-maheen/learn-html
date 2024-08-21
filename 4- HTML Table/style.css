@@ -1,0 +1,13 @@
+/* CSS practise */
+
+th{
+    border: 1px solid black
+}
+td{
+    border: 1px solid black;
+    text-align: center
+}
+table{
+    border: 1.5px solid black;
+    width: 50%
+}

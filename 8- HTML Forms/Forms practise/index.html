@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+    <form action="active">
+        <tr>
+            <td>
+                <label for="userID">User ID:</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+                <input type="password">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="gender">Gender:</label>
+            </td>
+            <td>
+               <label for="male">
+                <input type="radio" name="gender" id="male">Male
+               </label>
+               <label for="female">
+                <input type="radio" name="gender" id="female">Female
+               </label>
+               <label for="other">
+                <input type="radio" name="gender" id="other">Other
+               </label>
+            </td>
+        </tr>  
+        
+        <tr>
+            <td>
+                <label for="interested in">Interested in:</label>
+            </td>
+            <td>
+                <label for="html">
+                    <input type="checkbox" id="html" class="html">HTML
+                </label>
+           
+                <label for="css">
+                    <input type="checkbox" id="css" class="css">CSS
+                </label>
+            
+                <label for="javascript">
+                    <input type="checkbox" id="javascript" class="javascript">JavaScript
+                </label>
+            </td>  
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="description">Describe Your Skills:</label>
+            </td>
+            <td>
+                <textarea name="description" id="description" cols="25" rows="5"></textarea>
+            </td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+
+</html>
